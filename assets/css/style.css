@@ -1,0 +1,537 @@
+*{
+    margin : 0;
+    padding : 0;
+    list-style : none ;
+    text-decoration : none;
+    box-sizing: border-box;
+    font-family: 'Poppins", sans-serif';
+}
+.container{
+    width: 80%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+#header_info{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+#header_info a i {
+    padding-right: 10px;
+    font-size: 17px;
+}
+#header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header_social_medias{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#header_social_medias a{
+    color: white;
+}
+#header_bottom{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#header_bottom ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: calc((100% - 300px) / 2);
+}
+#header_bottom ul:nth-child(1){
+    padding-left: 20px;
+}
+#header_bottom ul li,
+#header_bottom ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #232323;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+#logo{
+    width: 200px;
+    height: 90px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+#header_bottom ul li button {
+    background-color: #5956E9;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    width: 150px;
+    height: 50px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+}
+#logo img{
+    max-width: 100%;
+}
+#first_section{
+    background-image: url(../imgs/Background\ Image.png);
+    height: 100vh;
+    min-height:850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#first_section .container{
+    padding-top: 250px;
+}
+#first_section_text{
+    background-color: white;
+    width: 550px;
+    position: relative;
+    z-index: 1;
+    padding: 40px 30px;
+}
+#first_section_text h2{
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 63px;
+    color: #5851EA;
+}
+#first_section_text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6C6C72;
+    margin: 18px 0 50px 0;
+}
+#first_section_text h5{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #232323;
+}
+#stores{
+    display: flex;
+    gap: 14px;
+}
+#stores a{
+    width: 150px;
+    height: 45px;
+}
+#stores a img{
+    width: 100%;
+    height: 100%;
+}
+#mobile_photo{
+    position: absolute;
+    top: 160px;
+    right: 0;
+    width: 500px;
+}
+#mobile_photo img{
+    width: 100%;
+    object-fit: contain;
+}
+.about_our_app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.about{
+    margin-top: 150px;
+    text-align: center;
+}
+.loremipsum {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 50px;
+    width: 600px;
+    margin-left: 280px;
+}
+.s_phone{
+    width: 400px;
+    height: 620px;
+    margin-top: 80px;
+}
+.creative{
+    font-size: 20px;
+    font-weight: 600; 
+}
+.slorem {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.creatlor{
+    padding: 30px;
+}
+.tel_about {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+#third_section{
+    background-image: url(../imgs/third\ section.png);
+    min-height: 1024px;
+}
+#third_section_head{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+#third_section_head h4{
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+#third_section_head p{
+    margin-top: 18px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.chath{
+    width: 300px;
+    height: 175px;
+}
+.chath i{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.chath h5{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin: 15px 0 12px 0;
+}
+.chath p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #FFFFFF;
+}
+.chath center{
+    text-align: center;
+}
+.chath.left{
+    text-align: left;
+}
+.chath.right{
+    text-align: right;
+}
+.chat_corner{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+#chat_center{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.chath_column:nth-child(2n + 1) {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.checkout {
+    font-weight: 700;
+    font-size: 32px;
+}
+.loreeem {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 40px;
+}
+.checkout_app {
+    margin-top: 150px;
+    text-align: center;
+}
+.phone_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.downapp {
+    margin-top: 200px;
+}
+.download_app {
+    font-size: 32px;
+    font-weight: 700;
+}
+.loreeeem {
+    width: 570px;
+    height: 87px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.play_app_store {
+    margin-top: 30px;
+}
+.numbers {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.tab_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.deckf {
+    display: flex;
+    gap: 50px;
+}
+.tables {
+    margin-top: 80px;
+    width: 170px;
+    height: 176px;
+    border-radius: 10px;
+    background-color: #5851EA;
+}
+.iphones {
+    width: 516px;
+    height: 480px;
+}
+.iph {
+    width: 516px;
+    height: 480px;
+}
+.comp_table {
+    height: 477px;
+    margin-top: 100px;
+    background-image: url("../imgs/Rectangle\ 15.png");
+}
+.how{
+    text-align: center;
+    padding-top: 150px;
+}
+.how_to_use {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFF;
+}
+.loremka {
+    font-size: 15px;
+    font-weight: 400;
+    width: 601px;
+    height: 70px;
+    padding-top: 50px;
+    margin: 0 auto;
+    color: #FFF;
+}
+.table_comp {
+    width: 770px;
+    height: 350px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+.comp_tab {
+    margin-top: 100px;
+}
+.our {
+    text-align: center;
+    padding-top: 150px;
+}
+.our_reative {
+    font-size: 31.25px;
+    font-weight: 700;
+}
+.loremmka {
+    width: 601px;
+    height: 70px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.person_table {
+    display: flex;
+    gap: 30px;
+}
+.person {
+    width: 370px;
+    height: 580px;
+    background-color: white;
+    border: 5px solid rgb(247, 243, 243);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.p_img {
+    border-radius: 50%;
+    margin-left: 85px;
+    margin-top: 50px;
+}
+.p_name {
+    font-size: 32px;
+    font-weight: 700;
+}
+.app_developers{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    color: #6C6C72;
+}
+.loremmmka {
+    width: 326px;
+    height: 61px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.p_app {
+    text-align: center;
+    padding-top: 100px;
+}
+.our_recent_blog {
+    text-align: center;
+    margin-top: 150px;
+}
+.our_recent {
+    font-size: 32px;
+    font-weight: 700;
+}
+.loreemm {
+   width: 600px;
+   font-size: 15px;
+   font-weight: 400;
+   margin: 0 auto;
+   padding-top: 30px;
+}
+.snap_tab {
+    display: flex;
+    gap: 30px;
+}
+.snap_f {
+    width: 370px;
+    height: 500px;
+    margin-top: 70px;
+}
+.snapchat {
+    width: 370px;
+    height: 228px;
+}
+.the_snap_lorem {
+    margin-top: 50px;
+    padding: 25px;
+}
+.the_snap {
+    font-size: 20px;
+    font-weight: 600;
+}
+.loreemka {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.read_more {
+    color: #5851EA;
+    font-size: 20px;
+    font-weight: 600;
+}
+.read {
+    padding-top: 30px;
+}
+.footer_color {
+    background-color: rgb(33,34,51);
+    height: 500px;
+    margin-top: 250px;
+}
+.logo_quick_news {
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 200px;
+    gap: 200px;
+}
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+}
+.quick_link {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.news_letter {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 80px;
+    padding-top: 60px;
+}
+.plogo {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+.footer_about {
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFF;
+}
+.four_link {
+    padding-top: 30px;
+}
+.four {
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+}
+.subscribe {
+    font-size: 15px;
+    font-weight: 400;
+    width: 300px;
+    padding-top: 30px;
+}
+.your_email {
+    padding-top: 50px;
+}
